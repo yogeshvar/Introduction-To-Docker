@@ -1,5 +1,6 @@
 # Introduction-To-Docker
-Getting started with Docker; basic essentials things you need to know about docker: images,containers,volumes,creating docker image. And running an VM instance in GCloud.
+Getting started with Docker; basic essentials things you need to know about docker: images, containers, volumes, creating docker image. And running a VM instance in GCloud.
+
 
 # Introduction to Docker
 
@@ -7,10 +8,10 @@ Getting started with Docker; basic essentials things you need to know about dock
 Ans: Docker is a software container platform.
 
 **Docker Image?**
-Ans: As easy to put it: Application software(Databases{mongo ,sql..} Python,Ruby,Nodejs,Angular...) or OS(Ubuntu,Windows...)  
+Ans:  As easy to put it: Application software(Databases{mongo, SQL..} Python, Ruby, Nodejs, Angular...) or OS(Ubuntu, Windows...)
 
 **Docker Container?**
-Ans: Containers are nothing but VM's but the difference why is it called Containers because they contains only application dependencies alone.
+Ans: Containers are nothing but VM's but the difference why is it called Containers because they contain only application dependencies alone.
   
 **Docker Volumes?**
 Ans: The user data/application which you wanted to run in the docker environment.
@@ -24,7 +25,7 @@ For the people who all are wondering why VM-instance? Because you can understand
 
 ##### 1. Connect to VM-instance using SSH.
 
-You can find the external ip in the GCloud Dashboard.
+You can find the external IP in the GCloud Dashboard.
 
 ```sh
 $ ssh username@externalip
@@ -39,12 +40,12 @@ if you want to replace it use --name tag
 $ docker run --name yournewname hello-world
 ```
 ##### 3. Build docker Images
-- create an file named DockerFile
+- create a file named DockerFile
 - type the instructions or command
 ```sh
 $ docker build yournewimagename . 
 ```
-**NOTE**: The .(dot) is very important because the it is used to indicate the DockerFile is present.
+**NOTE**: The . (dot) is very important because it is used to indicate the DockerFile is present.
 
 ### Basic Commands
 
