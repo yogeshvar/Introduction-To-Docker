@@ -1,0 +1,23 @@
+{
+  "name": "xhr-node",
+  "version": "1.0.0",
+  "description": "Node app for XHR processing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./Backend/index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "nodemon": "^1.11.0",
+    "mongodb": "^2.1.11",
+    "mysql": "^2.13.0"
+  },
+  "author": "EFP-GMX",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "5.0.0",
+    "should": "13.2.1",
+    "supertest": "3.0.0"
+  }
+}

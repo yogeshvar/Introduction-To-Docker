@@ -1,0 +1,6 @@
+{
+  "name": "GyanHub By Yogesh",
+  "description": "Q&A forum using Nodejs",
+  "repository": "https://github.com/yogeshvar/NodeJS_XHR_Forum",
+  "keywords": ["node", "express", "static"]
+}

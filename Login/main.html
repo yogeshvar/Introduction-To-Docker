@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GyanHub Forum</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+
+    <style>
+    body {
+        padding-top: 70px;
+    }
+    .othertop{margin-top:10px;}
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 ">
+      <form class="form-horizontal">
+        <fieldset>
+          <legend id="Heading_title">Your Profile</legend>
+
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Name (Full name)">Full name</label>
+                <div class="col-md-4">
+                  <div class="input-group">
+
+                    <div class="input-group-addon">
+                      <i class="fa fa-user">
+                      </i>
+                    </div>
+
+                    <input id="fullName" name="Name (Full name)" type="text" placeholder="Name (Full name)" class="form-control input-md">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="Upload photo">Can we have your beautiful picture?</label>
+                  <div class="col-md-4">
+                    <input id="uploadPicture" name="Upload photo" class="input-file" type="file">
+                  </div>
+                </div>
+
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="Date Of Birth">First cry of yours ??</label>
+                  <div class="col-md-4">
+                    <div class="input-group">
+
+                  <div class="input-group-addon">
+                        <i class="fa fa-birthday-cake"></i>
+                  </div>
+
+                      <input id="dateOfBirth" name="Date Of Birth" type="text" placeholder="Date Of Birth" class="form-control input-md">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="Father">Your Daddy's Name</label>
+                  <div class="col-md-4">
+                    <div class="input-group">
+                      <div class="input-group-addon">
+                        <i class="fa fa-male" style="font-size: 20px;"></i>
+                      </div>
+                        <input id="Fathername" name="Father" type="text" placeholder="Father's name" class="form-control input-md">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="Mother">Your Mommy Name</label>
+                      <div class="col-md-4">
+                        <div class="input-group">
+                          <div class="input-group-addon">
+                            <i class="fa fa-female" style="font-size: 20px;"></i>
+                          </div>
+                            <input id="Mothername" name="Mother" type="text" placeholder="Mother's Name" class="form-control input-md">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label class="col-md-4 control-label" for="Gender">Sexual Gender</label>
+                          <div class="col-md-4">
+                            <label class="radio-inline" for="Gender-0">
+                              <input type="radio" name="Gender" id="Gender-0" value="1" checked="checked">
+                              Male
+                            </label>
+
+                            <label class="radio-inline" for="Gender-1">
+                              <input type="radio" name="Gender" id="Gender-1" value="2">
+                              Female
+                            </label>
+
+                            <label class="radio-inline" for="Gender-2">
+                              <input type="radio" name="Gender" id="Gender-2" value="3">
+                              Other
+                            </label>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="radios">What's your fate?</label>
+                            <div class="col-md-4">
+                              <label class="radio-inline" for="radios-0">
+                                <input type="radio" name ="radios" id="radios-0" value="1" checked="checked">
+                                Looking for a relationship
+                              </label>
+
+                              <label class="radio-inline" for="radios-1">
+                                <input type="radio" name="radios" id="radios-1" value="2">
+                                Single forever
+                              </label>
+
+                              <label class="radio-inline" for="radios-2">
+                                <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                                I'm going to die(In love or In Relationship)
+                              </label>
+
+                              <label class="radio-inline" for="radios-3">
+                                <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                                Dead(Married)
+                              </label>
+
+                              <label class="radio-inline" for="radios-4">
+                                <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                                vada & curry(It's Complicated)
+                              </label>
+                            </div>
+                          </div>
+
+
+                          <div class="form-group">
+                            <label class="col-md-4 control-label col-xs-12" for="Permanent Address">LifeTime Address</label>
+                              <div class="col-md-2  col-xs-4">
+                                <input id="PAddress_district" name="Permanent Address" type="text" placeholder="District" class="form-control input-md ">
+                              </div>
+
+                              <div class="col-md-2 col-xs-4">
+                                <input id="PAddress_area" name="Permanent Address" type="text" placeholder="Area" class="form-control input-md ">
+                              </div>
+                            </div>
+
+                              <div class="form-group">
+                                <label class="col-md-4 control-label" for="Permanent Address"></label>
+                                  <div class="col-md-2  col-xs-4">
+                                    <input id="PAddress_street" name="Permanent Address" type="text" placeholder="Street" class="form-control input-md ">
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <label class="col-md-4 control-label col-xs-12" for="Temporary Address">ShortTime Address</label>
+                                  <div class="col-md-2  col-xs-4">
+                                    <input id="TAddress_district" name="Temporary Address" type="text" placeholder="District" class="form-control input-md ">
+                                  </div>
+                                  <div class="col-md-2 col-xs-4">
+                                    <input id="TAddress_area" name="Temporary Address" type="text" placeholder="Area" class="form-control input-md ">
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <label class="col-md-4 control-label" for="Temporary Address"></label>
+                                  <div class="col-md-2  col-xs-4">
+                                    <input id="TAddress_street" name="Temporary Address" type="text" placeholder="Street" class="form-control input-md ">
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <label class="col-md-4 control-label" for="radios">Who are you?</label>
+                                    <div class="col-md-4">
+                                      <label class="radio-inline" for="radios-0">
+                                        <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                                        Student
+                                      </label>
+
+                                      <label class="radio-inline" for="radios-1">
+                                        <input type="radio" name="radios" id="radios-1" value="2">
+                                        Working Student
+                                      </label>
+
+                                      <label class="radio-inline" for="radios-2">
+                                        <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                                        Expertised Student
+                                      </label>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label" for="School Name">School Name</label>
+                                    <div class="col-md-4">
+                                      <div class="input-group">
+                                        <div class="input-group-addon">
+                                          <i class="fa fa-graduation-cap"></i>
+                                        </div>
+                                        <input id="SchoolName" name="School Name" type="text" placeholder="School Name" class="form-control input-md">
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label" for="Secondary Occupation (if any)">College Name</label>
+                                      <div class="col-md-4">
+                                        <div class="input-group">
+                                          <div class="input-group-addon">
+                                            <i class="fa fa-graduation-cap"></i>
+                                          </div>
+                                          <input id="CollegeName" name="College Name" type="text" placeholder="College Name" class="form-control input-md">
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <label class="col-md-4 control-label" for="Skills">Work</label>
+                                      <div class="col-md-4">
+                                        <div class="input-group">
+                                          <div class="input-group-addon">
+                                            <i class="fa fa-briefcase"></i>
+                                          </div>
+                                          <input id="Work" name="Work" type="text" placeholder="Work" class="form-control input-md">
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <label class="col-md-4 control-label" for="Skills">Skills</label>
+                                      <div class="col-md-4">
+                                        <div class="input-group">
+                                          <div class="input-group-addon">
+                                            <i class="fa fa-graduation-cap"></i>
+                                          </div>
+                                          <input id="Skills" name="Skills" type="text" placeholder="Skills" class="form-control input-md">
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <label class="col-md-4 control-label" for="Phone number ">Where can I ping you or ring you?</label>
+                                      <div class="col-md-4">
+                                        <div class="input-group">
+                                          <div class="input-group-addon">
+                                            <i class="fa fa-phone"></i>
+                                          </div>
+                                          <input id="Phonenumber " name="Phone number " type="text" placeholder="Primary Phone number " class="form-control input-md">
+                                        </div>
+                                        <div class="input-group othertop">
+                                          <div class="input-group-addon">
+                                            <i class="fa fa-mobile fa-1x" style="font-size: 20px;"></i>
+                                          </div>
+                                          <input id="Phone number " name="Secondary Phone number " type="text" placeholder=" Secondary Phone number " class="form-control input-md">
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <label class="col-md-4 control-label" for="Email Address">Where should I spam you?</label>
+                                      <div class="col-md-4">
+                                        <div class="input-group">
+                                          <div class="input-group-addon">
+                                            <i class="fa fa-envelope-o"></i>
+                                          </div>
+                                          <input id="EmailAddress" name="Email Address" type="text" placeholder="Email Address" class="form-control input-md">
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <label class="col-md-4 control-label" for="Languages Known">Languages Known</label>
+                                        <div class="col-md-4">
+                                          <div class="checkbox">
+                                            <label for="Languages Known-2">
+                                              <input type="checkbox" name="Languages Known" id="LanguagesKnown-2" value="3">
+                                              English
+                                            </label>
+                                          </div>
+                                          <div class="checkbox">
+                                            <label for="Languages Known-0">
+                                              <input type="checkbox" name="Languages Known" id="LanguagesKnown-0" value="1">
+                                              Tamil
+                                            </label>
+                                          </div>
+                                          <div class="checkbox">
+                                            <label for="Languages Known-1">
+                                              <input type="checkbox" name="Languages Known" id="LanguagesKnown-1" value="2">
+                                              French
+                                            </label>
+                                          </div>
+                                          <div class="checkbox">
+                                            <label for="Languages Known-3">
+                                              <input type="checkbox" name="Languages Known" id="LanguagesKnown-3" value="4">
+                                              Hindi
+                                            </label>
+                                          </div>
+
+                                          <div class="othertop">
+                                            <label for="Languages Known-4">
+                                            </label>
+                                            <input type="input" name="LanguagesKnown" id="LanguagesKnown-4"  placeholder="Other Language">
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label class="col-md-4 control-label" for="Overview (max 200 words)">Overview (max 200 words)</label>
+                                          <div class="col-md-4">
+                                            <textarea class="form-control" rows="10"  id="Overview" name="Overview (max 200 words)">Overview</textarea>
+                                          </div>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                          <label class="col-md-4 control-label" ></label>
+                                            <div class="col-md-4">
+                                              <p>
+                                                <input type="button" class="btn btn-success" class="glyphicon glyphicon-thumbs-up" onclick="mysubmit();">
+                                                Submit
+                                              </p>
+                                              <p>
+                                                <input type="button" class="btn btn-danger"  class="glyphicon glyphicon-remove-sign" onclick="myreset();">
+                                                Reset
+                                              </p>
+                                              <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-thumbs-up"></span> Submit</a>
+                                              <a href="#" class="btn btn-danger" value=""><span class="glyphicon glyphicon-remove-sign"></span> Clear</a>
+                                            </div>
+                                          </div>
+
+                                        </fieldset>
+                                      </form>
+                                    </div>
+                                    <div class="col-md-2 hidden-xs">
+                                      <img src="http://websamplenow.com/30/userprofile/images/avatar.jpg" class="img-responsive img-thumbnail ">
+                                    </div>
+                                  </div>
+                                </div>
+                                <script src="js/main.js"></script>
+                                <script src="js/jquery.js"></script>
+                                <script src="js/bootstrap.min.js"></script>
+                              </body>
+                            </html>
